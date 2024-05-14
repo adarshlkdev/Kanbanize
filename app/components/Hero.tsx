@@ -24,7 +24,7 @@ export default function Hero(){
                 simple yet powerful Kanban board.
               </p>
             </div>
-            <Link href={"/onboarding"}>
+            <Link href={"/sign-up"}>
               <Button normalButton text="Start planning now &#8594;"></Button>
             </Link>
           </div>
