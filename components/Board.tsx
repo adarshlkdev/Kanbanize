@@ -111,10 +111,10 @@ const Board: React.FC<{ board: BoardTypes | null }> = ({
 
             {/* //CREATE MODAL GOES HERE */}
             <button
-            className='dark:bg-slate-700 bg-gray-500 rounded-full font-bold p-4 absolute right-10 bottom-10'
+            className='dark:bg-slate-700 bg-gray-500 text-white font-bold shadow-md rounded-full p-4 absolute right-10 bottom-10'
             onClick={openModal}
              >
-             <PlusIcon size={15}  />
+             <PlusIcon  size={25}  />
             </button>
             {isCreate && (
                 <Modal
