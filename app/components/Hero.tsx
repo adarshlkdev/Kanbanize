@@ -10,7 +10,7 @@ export default function Hero(){
         <div className="grid items-center gap-6 md:grid-cols-2">
           <Image
             alt="product image"
-            className="mx-auto rounded-xl order-last max-md:w-[300px] md:w-[500px]"
+            className="mx-auto rounded-xl order-last max-md:w-[300px] "
             src={ProductImage}
             >
           </Image>
