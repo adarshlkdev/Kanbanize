@@ -35,7 +35,7 @@ const Modal = ({
         closeModal();
     }
   return (
-    <div className='fixed top-1 left-0 flex items-center justify-center w-full h-full bg-gray-800 bg-opacity-80'
+    <div className='fixed top-1 left-0 flex items-center justify-center h-full w-full bg-gray-800 bg-opacity-80'
     onClick={closeModal}
     >
       <div className='bg-gray-700 rounded-lg p-6 text-white'

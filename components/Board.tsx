@@ -107,11 +107,11 @@ const Board: React.FC<{ board: BoardTypes | null }> = ({
          {board!.name}
       </h1>
       <DragDropContext onDragEnd={onDragEnd}>
-        <div className='grid md:grid-cols-3 max-md:items-center w-[90%] max-w-[1500px] mx-auto md:gap-5 gap-10'>
+        <div className='grid md:grid-cols-3 max-md:items-center w-[90%] max-w-[1500px] mx-auto gap-6 max-md:gap-3'>
 
             {/* //CREATE MODAL GOES HERE */}
             <button
-            className='dark:bg-slate-700 bg-gray-500 text-white font-bold shadow-md rounded-full p-4 absolute right-10 bottom-10'
+            className='dark:bg-slate-700 bg-gray-500 text-white font-bold shadow-md rounded-full gap-10 p-4 absolute right-10 bottom-10'
             onClick={openModal}
              >
              <PlusIcon  size={25}  />
